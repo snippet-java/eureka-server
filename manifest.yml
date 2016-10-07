@@ -1,0 +1,10 @@
+---
+applications:
+- path: target/eureka-server-0.0.1-SNAPSHOT.war
+  name: spring-eureka-demo-cheok-war
+  host: spring-eureka-demo-cheok-war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  disk_quota: 1024M
+  buildpack: liberty-for-java
