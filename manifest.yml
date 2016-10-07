@@ -1,8 +1,8 @@
 ---
 applications:
 - path: target/eureka-server-0.0.1-SNAPSHOT.war
-  name: spring-eureka-demo-cheok-war
-  host: spring-eureka-demo-cheok-war
+  name: spring-eureka-demo
+  host: spring-eureka-demo-${random-word}
   memory: 512M
   instances: 1
   domain: mybluemix.net
